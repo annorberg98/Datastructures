@@ -5,9 +5,10 @@
 * Queue (Started)
 * Binary Heap (Started)
 * LinkedList (Single)
+* Priority Queue
 
 ### Upcoming
-* Priority Queue
+
 * Bag
 * Hash Table
 * Graphs/Trees
