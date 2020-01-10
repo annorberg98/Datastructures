@@ -2,13 +2,13 @@
 
 ## Available Datastructures
 * Stack
-* Binary Heap (Min)
+* Queue (Started)
+* Binary Heap (Started)
 * LinkedList (Single)
 
 ### Upcoming
-* Queue
+
 * Bag
-* Symbol Table
-* Binary Heap (Max)
-* Graphs (Trees)
+* Hash Table
+* Graphs/Trees
 * Hash table

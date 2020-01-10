@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Datastructures
+namespace Datastructures.Stack
 {
-    class Stack<T>
+    class Stack<T> : IStack<T>
     {
         private T[] arrayData; //Array of items
         private int N; //Number of elements on the Stack
