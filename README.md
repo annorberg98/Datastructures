@@ -7,7 +7,7 @@
 * LinkedList (Single)
 
 ### Upcoming
-
+* Priority Queue
 * Bag
 * Hash Table
 * Graphs/Trees

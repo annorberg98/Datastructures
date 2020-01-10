@@ -1,4 +1,6 @@
 ﻿using System;
+using Datastructures.Stack;
+using Datastructures.Queue;
 
 namespace Datastructures
 {
