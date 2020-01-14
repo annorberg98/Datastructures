@@ -14,6 +14,9 @@ stack.Push(1);
 
 //Removing item at the top
 stack.Pop();
+
+//Peek the top item
+stack.Peek();
 ```
 ### Queue (Started)
 #### Usage
