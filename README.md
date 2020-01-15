@@ -1,13 +1,13 @@
 # Datastructures
 
-## Available Datastructures
+A class-library project of some standard Data Structures in C#.
 
-Every class is generic.
+## Available Datastructures
 
 ### Stack
 #### Usage:
 ```C#
-Stack stack = new Stack()<int>;
+Stack stack = new Stack<int>();
 
 //Inserting
 stack.Push(1);
@@ -21,7 +21,7 @@ stack.Peek();
 ### Queue (Started)
 #### Usage
 ```C#
-Queue queue = new Queue()<int>;
+Queue queue = new Queue<int>();
 
 //Insert
 queue.Enqueue(1);
@@ -32,9 +32,9 @@ queue.Dequeue();
 
 ### Upcoming
 * Binary Heap (Started)
-* LinkedList (Single)
+* Single + Double LinkedList
 * Priority Queue
-* Bag
 * Hash Table
-* Graphs/Trees
-* Hash table
+* Graphs
+* Binary Search Tree (Started)
+* Sorted List (Started)
