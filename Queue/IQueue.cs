@@ -9,5 +9,7 @@ namespace Datastructures.Queue
         void Enqueue(T item);
 
         T Dequeue();
+
+        T Peek();
     }
 }

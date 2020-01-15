@@ -197,6 +197,11 @@ namespace Datastructures.Queue
             return topItem;
         }
 
+        public T Peek()
+        {
+            return this.Top;
+        }
+
         /// <summary>
         /// Returns an array version of this queue.
         /// </summary>

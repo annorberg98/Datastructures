@@ -101,6 +101,15 @@ namespace Datastructures.Stack
         }
 
         /// <summary>
+        /// Returns top element in the stack without removing it;
+        /// </summary>
+        /// <returns></returns>
+        public T Peek()
+        {
+            return this.Top;
+        }
+
+        /// <summary>
         /// Returns an array version of this stack.
         /// </summary>
         /// <returns>System.Array.</returns>
@@ -132,11 +141,6 @@ namespace Datastructures.Stack
         System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
         {
             return this.GetEnumerator();
-        }
-
-        public T Peek()
-        {
-            throw new NotImplementedException();
         }
     }
 }

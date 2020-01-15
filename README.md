@@ -26,7 +26,7 @@ stack.Pop();
 //Peek the top item
 stack.Peek();
 ```
-### Queue (Started)
+### Queue
 #### Usage
 ```C#
 Queue queue = new Queue<int>();
@@ -36,6 +36,9 @@ queue.Enqueue(1);
 
 //Removing item at the front
 queue.Dequeue();
+
+//Peek the item at the front
+queue.Peek();
 ```
 
 Both `Stack` and `Queue` can be initiated with or without inital size.
