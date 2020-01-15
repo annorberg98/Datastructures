@@ -39,6 +39,7 @@ queue.Dequeue();
 ```
 
 Both `Stack` and `Queue` can be initiated with or without inital size.
+They will both resize when needed.
 
 ```C#
 Stack stack = new Stack<int>(30);
@@ -54,6 +55,23 @@ SLinkedList Llist = new SLinkedList<int>();
 
 //Insert a node at the end of the list.
 Llist.Append(int 1);
+```
+
+### Binary Search Tree
+#### Usage
+
+```C#
+BinarySearchTree bst = new BinarySearchTree<int>();
+
+//Insert element to the tree
+bst.Insert(int 1);
+
+//Insert an array of elements
+int[] elements = [1, 2, 3, 4, 5];
+bst.Insert(elements);
+
+//Clear all elements from the tree
+bst.Clear();
 ```
 
 ### Upcoming
