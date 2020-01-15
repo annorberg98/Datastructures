@@ -50,7 +50,7 @@ Queue queue = new Queue<int>(30);
 ```
 
 ### Linked List
-Linked list can be double or single.
+Linked list can be single `SLinkedList` or double `DLinkedList`.
 
 #### Usage:
 ```C#
