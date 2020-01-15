@@ -38,6 +38,24 @@ queue.Enqueue(1);
 queue.Dequeue();
 ```
 
+Both `Stack` and `Queue` can be initiated with or without inital size.
+
+```C#
+Stack stack = new Stack<int>(30);
+Queue queue = new Queue<int>(30);
+```
+
+### Linked List
+Linked list can be double or single.
+
+#### Usage:
+```C#
+SLinkedList Llist = new SLinkedList<int>();
+
+//Insert a node at the end of the list.
+Llist.Append(int 1);
+```
+
 ### Upcoming
 * Binary Heap (Started)
 * Single + Double LinkedList
